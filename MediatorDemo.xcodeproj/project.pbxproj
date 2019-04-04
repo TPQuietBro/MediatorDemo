@@ -1,0 +1,566 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F8B0D246F33CEF933DF7034 /* libPods-MediatorDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E04AC550403F380AE7F146C4 /* libPods-MediatorDemo.a */; };
+		AFC447462255E15300D7588A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AFC447452255E15300D7588A /* AppDelegate.m */; };
+		AFC447492255E15300D7588A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFC447482255E15300D7588A /* ViewController.m */; };
+		AFC4474C2255E15300D7588A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFC4474A2255E15300D7588A /* Main.storyboard */; };
+		AFC4474E2255E15400D7588A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFC4474D2255E15400D7588A /* Assets.xcassets */; };
+		AFC447512255E15400D7588A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFC4474F2255E15400D7588A /* LaunchScreen.storyboard */; };
+		AFC447542255E15400D7588A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AFC447532255E15400D7588A /* main.m */; };
+		AFC447E22255E24300D7588A /* CTMediator+Base.m in Sources */ = {isa = PBXBuildFile; fileRef = AFC447E12255E24300D7588A /* CTMediator+Base.m */; };
+		AFC447EB2255E24D00D7588A /* BaseTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFC447E52255E24D00D7588A /* BaseTabBarViewController.m */; };
+		AFC447EC2255E24D00D7588A /* Target_Base.m in Sources */ = {isa = PBXBuildFile; fileRef = AFC447E92255E24D00D7588A /* Target_Base.m */; };
+		AFC447ED2255E24D00D7588A /* BaseNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFC447EA2255E24D00D7588A /* BaseNavController.m */; };
+		AFC447FB2255E25400D7588A /* ListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFC447F12255E25300D7588A /* ListViewController.m */; };
+		AFC447FC2255E25400D7588A /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFC447F42255E25400D7588A /* HomeViewController.m */; };
+		AFC447FD2255E25400D7588A /* Target_Task.m in Sources */ = {isa = PBXBuildFile; fileRef = AFC447F52255E25400D7588A /* Target_Task.m */; };
+		AFC447FE2255E25400D7588A /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFC447F92255E25400D7588A /* DetailViewController.m */; };
+		AFC448062255E26200D7588A /* TestTool.m in Sources */ = {isa = PBXBuildFile; fileRef = AFC448042255E26200D7588A /* TestTool.m */; };
+		AFC4480A2255E3A900D7588A /* CTMediator+HomeMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = AFC448092255E3A900D7588A /* CTMediator+HomeMediator.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2C38A400D6AB53CD5F73F9C4 /* Pods-MediatorDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MediatorDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MediatorDemo/Pods-MediatorDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		989A586871769F06A93FABC3 /* Pods-MediatorDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MediatorDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-MediatorDemo/Pods-MediatorDemo.release.xcconfig"; sourceTree = "<group>"; };
+		AFC447412255E15300D7588A /* MediatorDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MediatorDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFC447442255E15300D7588A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AFC447452255E15300D7588A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AFC447472255E15300D7588A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AFC447482255E15300D7588A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AFC4474B2255E15300D7588A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AFC4474D2255E15400D7588A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AFC447502255E15400D7588A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AFC447522255E15400D7588A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFC447532255E15400D7588A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AFC447E02255E24300D7588A /* CTMediator+Base.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CTMediator+Base.h"; sourceTree = "<group>"; };
+		AFC447E12255E24300D7588A /* CTMediator+Base.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CTMediator+Base.m"; sourceTree = "<group>"; };
+		AFC447E52255E24D00D7588A /* BaseTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTabBarViewController.m; sourceTree = "<group>"; };
+		AFC447E62255E24D00D7588A /* Target_Base.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Target_Base.h; sourceTree = "<group>"; };
+		AFC447E72255E24D00D7588A /* BaseNavController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNavController.h; sourceTree = "<group>"; };
+		AFC447E82255E24D00D7588A /* BaseTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTabBarViewController.h; sourceTree = "<group>"; };
+		AFC447E92255E24D00D7588A /* Target_Base.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Target_Base.m; sourceTree = "<group>"; };
+		AFC447EA2255E24D00D7588A /* BaseNavController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNavController.m; sourceTree = "<group>"; };
+		AFC447F12255E25300D7588A /* ListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListViewController.m; sourceTree = "<group>"; };
+		AFC447F22255E25400D7588A /* ListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListViewController.h; sourceTree = "<group>"; };
+		AFC447F42255E25400D7588A /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		AFC447F52255E25400D7588A /* Target_Task.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Target_Task.m; sourceTree = "<group>"; };
+		AFC447F62255E25400D7588A /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		AFC447F72255E25400D7588A /* Target_Task.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Target_Task.h; sourceTree = "<group>"; };
+		AFC447F92255E25400D7588A /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		AFC447FA2255E25400D7588A /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		AFC448012255E25B00D7588A /* TestMarcoHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestMarcoHeader.h; sourceTree = "<group>"; };
+		AFC448042255E26200D7588A /* TestTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestTool.m; sourceTree = "<group>"; };
+		AFC448052255E26200D7588A /* TestTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestTool.h; sourceTree = "<group>"; };
+		AFC448082255E3A900D7588A /* CTMediator+HomeMediator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CTMediator+HomeMediator.h"; sourceTree = "<group>"; };
+		AFC448092255E3A900D7588A /* CTMediator+HomeMediator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CTMediator+HomeMediator.m"; sourceTree = "<group>"; };
+		E04AC550403F380AE7F146C4 /* libPods-MediatorDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MediatorDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AFC4473E2255E15300D7588A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F8B0D246F33CEF933DF7034 /* libPods-MediatorDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		32D0EF9B0887318598D5BB1F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E04AC550403F380AE7F146C4 /* libPods-MediatorDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		47B0A373B8A0EE4FBB4CE2EA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2C38A400D6AB53CD5F73F9C4 /* Pods-MediatorDemo.debug.xcconfig */,
+				989A586871769F06A93FABC3 /* Pods-MediatorDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AFC447382255E15300D7588A = {
+			isa = PBXGroup;
+			children = (
+				AFC447432255E15300D7588A /* MediatorDemo */,
+				AFC447422255E15300D7588A /* Products */,
+				47B0A373B8A0EE4FBB4CE2EA /* Pods */,
+				32D0EF9B0887318598D5BB1F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AFC447422255E15300D7588A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AFC447412255E15300D7588A /* MediatorDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AFC447432255E15300D7588A /* MediatorDemo */ = {
+			isa = PBXGroup;
+			children = (
+				AFC447EE2255E25300D7588A /* HomeTask */,
+				AFC448072255E39600D7588A /* HomeMediator */,
+				AFC448022255E26200D7588A /* PublicTool */,
+				AFC447FF2255E25B00D7588A /* PublicMarco */,
+				AFC447E32255E24D00D7588A /* BaseVc */,
+				AFC447DE2255E24300D7588A /* BaseMediator */,
+				AFC447442255E15300D7588A /* AppDelegate.h */,
+				AFC447452255E15300D7588A /* AppDelegate.m */,
+				AFC447472255E15300D7588A /* ViewController.h */,
+				AFC447482255E15300D7588A /* ViewController.m */,
+				AFC4474A2255E15300D7588A /* Main.storyboard */,
+				AFC4474D2255E15400D7588A /* Assets.xcassets */,
+				AFC4474F2255E15400D7588A /* LaunchScreen.storyboard */,
+				AFC447522255E15400D7588A /* Info.plist */,
+				AFC447532255E15400D7588A /* main.m */,
+			);
+			path = MediatorDemo;
+			sourceTree = "<group>";
+		};
+		AFC447DE2255E24300D7588A /* BaseMediator */ = {
+			isa = PBXGroup;
+			children = (
+				AFC447DF2255E24300D7588A /* Classes */,
+			);
+			path = BaseMediator;
+			sourceTree = "<group>";
+		};
+		AFC447DF2255E24300D7588A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				AFC447E02255E24300D7588A /* CTMediator+Base.h */,
+				AFC447E12255E24300D7588A /* CTMediator+Base.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		AFC447E32255E24D00D7588A /* BaseVc */ = {
+			isa = PBXGroup;
+			children = (
+				AFC447E62255E24D00D7588A /* Target_Base.h */,
+				AFC447E92255E24D00D7588A /* Target_Base.m */,
+				AFC447E42255E24D00D7588A /* Classes */,
+			);
+			path = BaseVc;
+			sourceTree = "<group>";
+		};
+		AFC447E42255E24D00D7588A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				AFC447E82255E24D00D7588A /* BaseTabBarViewController.h */,
+				AFC447E52255E24D00D7588A /* BaseTabBarViewController.m */,
+				AFC447E72255E24D00D7588A /* BaseNavController.h */,
+				AFC447EA2255E24D00D7588A /* BaseNavController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		AFC447EE2255E25300D7588A /* HomeTask */ = {
+			isa = PBXGroup;
+			children = (
+				AFC447F72255E25400D7588A /* Target_Task.h */,
+				AFC447F52255E25400D7588A /* Target_Task.m */,
+				AFC447EF2255E25300D7588A /* Classes */,
+			);
+			path = HomeTask;
+			sourceTree = "<group>";
+		};
+		AFC447EF2255E25300D7588A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				AFC447F02255E25300D7588A /* ListVc */,
+				AFC447F32255E25400D7588A /* HomeVc */,
+				AFC447F82255E25400D7588A /* DetailVc */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		AFC447F02255E25300D7588A /* ListVc */ = {
+			isa = PBXGroup;
+			children = (
+				AFC447F22255E25400D7588A /* ListViewController.h */,
+				AFC447F12255E25300D7588A /* ListViewController.m */,
+			);
+			path = ListVc;
+			sourceTree = "<group>";
+		};
+		AFC447F32255E25400D7588A /* HomeVc */ = {
+			isa = PBXGroup;
+			children = (
+				AFC447F62255E25400D7588A /* HomeViewController.h */,
+				AFC447F42255E25400D7588A /* HomeViewController.m */,
+			);
+			path = HomeVc;
+			sourceTree = "<group>";
+		};
+		AFC447F82255E25400D7588A /* DetailVc */ = {
+			isa = PBXGroup;
+			children = (
+				AFC447FA2255E25400D7588A /* DetailViewController.h */,
+				AFC447F92255E25400D7588A /* DetailViewController.m */,
+			);
+			path = DetailVc;
+			sourceTree = "<group>";
+		};
+		AFC447FF2255E25B00D7588A /* PublicMarco */ = {
+			isa = PBXGroup;
+			children = (
+				AFC448002255E25B00D7588A /* Classes */,
+			);
+			path = PublicMarco;
+			sourceTree = "<group>";
+		};
+		AFC448002255E25B00D7588A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				AFC448012255E25B00D7588A /* TestMarcoHeader.h */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		AFC448022255E26200D7588A /* PublicTool */ = {
+			isa = PBXGroup;
+			children = (
+				AFC448032255E26200D7588A /* Classes */,
+			);
+			path = PublicTool;
+			sourceTree = "<group>";
+		};
+		AFC448032255E26200D7588A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				AFC448052255E26200D7588A /* TestTool.h */,
+				AFC448042255E26200D7588A /* TestTool.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		AFC448072255E39600D7588A /* HomeMediator */ = {
+			isa = PBXGroup;
+			children = (
+				AFC448082255E3A900D7588A /* CTMediator+HomeMediator.h */,
+				AFC448092255E3A900D7588A /* CTMediator+HomeMediator.m */,
+			);
+			path = HomeMediator;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AFC447402255E15300D7588A /* MediatorDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFC447572255E15400D7588A /* Build configuration list for PBXNativeTarget "MediatorDemo" */;
+			buildPhases = (
+				14E456F112CC9D7958153BDA /* [CP] Check Pods Manifest.lock */,
+				AFC4473D2255E15300D7588A /* Sources */,
+				AFC4473E2255E15300D7588A /* Frameworks */,
+				AFC4473F2255E15300D7588A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MediatorDemo;
+			productName = MediatorDemo;
+			productReference = AFC447412255E15300D7588A /* MediatorDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AFC447392255E15300D7588A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "唐鹏";
+				TargetAttributes = {
+					AFC447402255E15300D7588A = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = AFC4473C2255E15300D7588A /* Build configuration list for PBXProject "MediatorDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AFC447382255E15300D7588A;
+			productRefGroup = AFC447422255E15300D7588A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AFC447402255E15300D7588A /* MediatorDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AFC4473F2255E15300D7588A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFC447512255E15400D7588A /* LaunchScreen.storyboard in Resources */,
+				AFC4474E2255E15400D7588A /* Assets.xcassets in Resources */,
+				AFC4474C2255E15300D7588A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		14E456F112CC9D7958153BDA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MediatorDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AFC4473D2255E15300D7588A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFC447492255E15300D7588A /* ViewController.m in Sources */,
+				AFC447FD2255E25400D7588A /* Target_Task.m in Sources */,
+				AFC447EC2255E24D00D7588A /* Target_Base.m in Sources */,
+				AFC447FB2255E25400D7588A /* ListViewController.m in Sources */,
+				AFC447542255E15400D7588A /* main.m in Sources */,
+				AFC4480A2255E3A900D7588A /* CTMediator+HomeMediator.m in Sources */,
+				AFC447EB2255E24D00D7588A /* BaseTabBarViewController.m in Sources */,
+				AFC447FC2255E25400D7588A /* HomeViewController.m in Sources */,
+				AFC447FE2255E25400D7588A /* DetailViewController.m in Sources */,
+				AFC447ED2255E24D00D7588A /* BaseNavController.m in Sources */,
+				AFC447E22255E24300D7588A /* CTMediator+Base.m in Sources */,
+				AFC447462255E15300D7588A /* AppDelegate.m in Sources */,
+				AFC448062255E26200D7588A /* TestTool.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AFC4474A2255E15300D7588A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFC4474B2255E15300D7588A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AFC4474F2255E15400D7588A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFC447502255E15400D7588A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AFC447552255E15400D7588A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AFC447562255E15400D7588A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AFC447582255E15400D7588A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C38A400D6AB53CD5F73F9C4 /* Pods-MediatorDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MediatorDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.allen.MediatorDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AFC447592255E15400D7588A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 989A586871769F06A93FABC3 /* Pods-MediatorDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MediatorDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.allen.MediatorDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AFC4473C2255E15300D7588A /* Build configuration list for PBXProject "MediatorDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFC447552255E15400D7588A /* Debug */,
+				AFC447562255E15400D7588A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFC447572255E15400D7588A /* Build configuration list for PBXNativeTarget "MediatorDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFC447582255E15400D7588A /* Debug */,
+				AFC447592255E15400D7588A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AFC447392255E15300D7588A /* Project object */;
+}
